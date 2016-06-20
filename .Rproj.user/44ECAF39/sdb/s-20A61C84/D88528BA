@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(wordnet)\n\nfilter <- getTermFilter(\"StartsWithFilter\", \"package\", TRUE)\nterms <- getIndexTerms(\"NOUN\", 5, filter)\nsapply(terms, getLemma)\n\nlibrary(RWeka)\n\n",
+    "created" : 1466459414155.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "2674445732",
+    "id" : "D88528BA",
+    "lastKnownWriteTime" : 128345712,
+    "last_content_update" : 1466459754155,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
